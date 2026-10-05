@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OKLM Grill — maquette Al-Falah</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{font-family:Inter,system-ui,sans-serif}</style>
+</head>
+<body class="bg-slate-50 text-slate-800 pb-16 md:pb-0">
+<div class="bg-amber-50 text-amber-950 text-center text-sm px-4 py-2 border-b border-amber-200">
+  Complimentary mockup by Al-Falah Marketing — nothing is live under your name. · Maquette offerte — rien n'est publié en votre nom.
+</div>
+<header class="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
+    <a href="#top" class="font-semibold text-slate-900">OKLM Grill</a>
+    <nav class="hidden md:flex gap-5 text-sm">
+      <a href="#menu" data-en="Menu" data-fr="Carte">Carte</a>
+      <a href="#gallery" data-en="Gallery" data-fr="Ambiance">Ambiance</a>
+      <a href="#contact" data-en="Contact" data-fr="Contact">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <div id="lang" class="text-xs rounded-full border border-slate-200 overflow-hidden">
+        <button type="button" data-lang="fr" class="px-2 py-1">FR</button>
+        <button type="button" data-lang="en" class="px-2 py-1">EN</button>
+      </div>
+      <a href="https://wa.me/224629326262" class="bg-teal-700 text-white text-sm font-semibold rounded-full px-4 py-2">WhatsApp</a>
+    </div>
+  </div>
+</header>
+<section id="top" class="relative min-h-[78vh] flex items-end">
+  <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=80" alt="" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/55 to-slate-950/20"></div>
+  <div class="relative max-w-6xl mx-auto px-4 pb-12 pt-24 text-white">
+    <p class="text-amber-200 text-sm tracking-wide uppercase">Kipé · grill & livraison</p>
+    <h1 class="mt-2 text-4xl md:text-6xl font-semibold max-w-3xl leading-tight" data-en="Grills and West African plates, delivered" data-fr="Grillades et plats ouest-africains, en livraison">Grillades et plats ouest-africains, en livraison</h1>
+    <p class="mt-4 max-w-xl text-slate-200" data-en="Kedjenou, djouka, foutou, braised fish. Call or WhatsApp the number posted on the public page." data-fr="Kedjenou, djouka, foutou, poisson braisé. Appelez ou écrivez au numéro publié sur la page.">Kedjenou, djouka, foutou, poisson braisé. Appelez ou écrivez au numéro publié sur la page.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="https://wa.me/224629326262" class="bg-teal-600 hover:bg-teal-500 text-white rounded-full px-5 py-3 font-semibold" data-en="Order on WhatsApp" data-fr="Commander sur WhatsApp">Commander sur WhatsApp</a>
+      <a href="tel:+224629326262" class="bg-white/10 border border-white/30 rounded-full px-5 py-3 font-semibold">+224 629 32 62 62</a>
+    </div>
+  </div>
+</section>
+<section class="bg-slate-900 text-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-4 grid md:grid-cols-3 gap-3 text-sm">
+    <p>Laurel, MD · +1 240 280 6137</p>
+    <p>Coyah, Guinée · Orange Money / GNF · +224 611 351 302</p>
+    <p>Freetown · SLE · Al-Falah studio support</p>
+  </div>
+</section>
+<section id="menu" class="max-w-6xl mx-auto px-4 py-14">
+  <p class="text-teal-700 text-sm font-semibold" data-en="The table" data-fr="La carte">La carte</p>
+  <h2 class="text-3xl font-semibold text-slate-900 mt-1" data-en="From recent public menus" data-fr="D'après les menus publics récents">D'après les menus publics récents</h2>
+  <p class="mt-2 text-slate-600 max-w-2xl" data-en="Prices move with the market. Tap a plate and ask for today's price on WhatsApp." data-fr="Les prix suivent le marché. Touchez un plat et demandez le prix du jour sur WhatsApp.">Les prix suivent le marché. Touchez un plat et demandez le prix du jour sur WhatsApp.</p>
+  <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <button type="button" onclick="openModal('m0')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80" alt="Poisson braisé & attiéké" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Poisson braisé & attiéké</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="Grilled fish with attiéké. Delivery available." data-fr="Poisson braisé et attiéké. Livraison possible.">Poisson braisé et attiéké. Livraison possible.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button>
+        <button type="button" onclick="openModal('m1')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="Kedjenou poulet" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Kedjenou poulet</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="Ivorian-style chicken kedjenou." data-fr="Kedjenou de poulet.">Kedjenou de poulet.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button>
+        <button type="button" onclick="openModal('m2')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=1200&q=80" alt="Djouka" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Djouka</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="A returning house plate." data-fr="Le djouka de la maison.">Le djouka de la maison.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button>
+        <button type="button" onclick="openModal('m3')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80" alt="Foutou banane & lafidi" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Foutou banane & lafidi</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="Plantain fufu and lafidi." data-fr="Foutou banane et lafidi.">Foutou banane et lafidi.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button>
+        <button type="button" onclick="openModal('m4')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=80" alt="Gambas sautées" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Gambas sautées</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="Sautéed prawns from the public chic menu." data-fr="Gambas sautées, menu chic public.">Gambas sautées, menu chic public.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button>
+        <button type="button" onclick="openModal('m5')" class="text-left bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80" alt="Riz gras poisson" class="h-44 w-full object-cover">
+          <div class="p-4">
+            <p class="font-semibold text-slate-900">Riz gras poisson</p>
+            <p class="text-sm text-slate-600 mt-1" data-en="Tomato rice with fish." data-fr="Riz gras au poisson.">Riz gras au poisson.</p>
+            <p class="mt-3 text-teal-700 text-sm font-semibold" data-en="Ask today's price" data-fr="Demander le prix du jour">Demander le prix du jour</p>
+          </div>
+        </button></div>
+</section>
+<section id="gallery" class="bg-white border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-3xl font-semibold" data-en="Ambiance" data-fr="Ambiance">Ambiance</h2>
+    <p class="text-slate-600 mt-2" data-en="Placeholder photos until the house shares its own shots." data-fr="Photos d'ambiance en attendant les clichés de la maison.">Photos d'ambiance en attendant les clichés de la maison.</p>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-3"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=80" alt="" class="h-40 w-full object-cover rounded-2xl"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80" alt="" class="h-40 w-full object-cover rounded-2xl"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="" class="h-40 w-full object-cover rounded-2xl"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=80" alt="" class="h-40 w-full object-cover rounded-2xl"></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="text-3xl font-semibold" data-en="A page that works on a phone" data-fr="Une page qui travaille au téléphone">Une page qui travaille au téléphone</h2>
+  <div class="mt-6 grid md:grid-cols-3 gap-4">
+    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm"><p class="text-3xl font-semibold text-teal-700">1</p><p class="mt-2" data-en="Menu, hours, and WhatsApp on one screen." data-fr="Carte, horaires et WhatsApp sur un seul écran.">Carte, horaires et WhatsApp sur un seul écran.</p></div>
+    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm"><p class="text-3xl font-semibold text-teal-700">FR/EN</p><p class="mt-2" data-en="Guests and diaspora can switch language." data-fr="Clients et diaspora basculent la langue.">Clients et diaspora basculent la langue.</p></div>
+    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm"><p class="text-3xl font-semibold text-teal-700">0</p><p class="mt-2" data-en="Nothing is live. You approve photos and prices first." data-fr="Rien n'est en ligne. Vous validez photos et prix d'abord.">Rien n'est en ligne. Vous validez photos et prix d'abord.</p></div>
+  </div>
+</section>
+<section id="contact" class="bg-slate-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-8">
+    <div>
+      <h2 class="text-3xl font-semibold" data-en="Reserve or order" data-fr="Réserver ou commander">Réserver ou commander</h2>
+      <p class="mt-3 text-slate-300">Kipé, Conakry</p>
+      <p class="mt-2">+224 629 32 62 62</p>
+      <p class="mt-2 text-sm text-slate-400" data-en="Public listing: about 12:00–23:00, Tuesday to Sunday. Confirm on WhatsApp." data-fr="Fiche publique : environ 12h–23h, mardi à dimanche. Confirmez sur WhatsApp.">Fiche publique : environ 12h–23h, mardi à dimanche. Confirmez sur WhatsApp.</p>
+    </div>
+    <form onsubmit="sendLead(event)" class="bg-white text-slate-800 rounded-2xl p-5 space-y-3">
+      <input name="name" required placeholder="Nom" class="w-full border border-slate-200 rounded-xl px-3 py-3">
+      <textarea name="msg" required rows="3" placeholder="Votre message" class="w-full border border-slate-200 rounded-xl px-3 py-3"></textarea>
+      <button class="w-full bg-teal-700 text-white rounded-full py-3 font-semibold" data-en="Open WhatsApp" data-fr="Ouvrir WhatsApp">Ouvrir WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer class="bg-slate-950 text-slate-300">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+    <div>
+      <p class="text-white font-semibold text-lg" data-en="OKLM Grill" data-fr="OKLM Grill">OKLM Grill</p>
+      <p class="mt-2 text-sm" data-en="Kipé, Conakry" data-fr="Kipé, Conakry">Kipé, Conakry</p>
+      <p class="mt-2 text-sm">WhatsApp / Tel: +224 629 32 62 62</p>
+    </div>
+    <div>
+      <p class="text-white font-semibold">Al-Falah Marketing</p>
+      <p class="mt-2 text-sm">8468 Winding Trail, Laurel, MD 20724</p>
+      <p class="text-sm">Coyah, Guinée · Freetown, Sierra Leone</p>
+      <p class="text-sm">+1 240 280 6137 · +224 611 351 302</p>
+      <p class="text-sm">info@al-falahmarketing.com</p>
+    </div>
+    <div>
+      <p class="text-white font-semibold" data-en="Review only" data-fr="Maquette uniquement">Maquette uniquement</p>
+      <p class="mt-2 text-sm" data-en="This page is a complimentary mockup. It is not live under the business name." data-fr="Cette page est une maquette offerte. Elle n'est pas en ligne au nom de l'établissement.">Cette page est une maquette offerte. Elle n'est pas en ligne au nom de l'établissement.</p>
+      <p class="mt-3 text-xs text-slate-500">© 2026 Al-Falah Marketing · <a class="underline" href="https://al-falahmarketing.com">al-falahmarketing.com</a></p>
+    </div>
+  </div>
+</footer>
+<div class="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-slate-200 grid grid-cols-3">
+  <a href="tel:+224629326262" class="py-3 text-center text-sm font-semibold text-slate-800">Call</a>
+  <a href="https://wa.me/224629326262" class="py-3 text-center text-sm font-semibold text-white bg-teal-700">WhatsApp</a>
+  <a href="#menu" class="py-3 text-center text-sm font-semibold text-slate-800" data-en="Menu" data-fr="Menu">Menu</a>
+</div>
+
+
+        <div id="m0" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m0')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Poisson braisé & attiéké</p>
+              <p class="mt-2 text-slate-600" data-en="Grilled fish with attiéké. Delivery available." data-fr="Poisson braisé et attiéké. Livraison possible.">Poisson braisé et attiéké. Livraison possible.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m0')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+        <div id="m1" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m1')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Kedjenou poulet</p>
+              <p class="mt-2 text-slate-600" data-en="Ivorian-style chicken kedjenou." data-fr="Kedjenou de poulet.">Kedjenou de poulet.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m1')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+        <div id="m2" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m2')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=1200&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Djouka</p>
+              <p class="mt-2 text-slate-600" data-en="A returning house plate." data-fr="Le djouka de la maison.">Le djouka de la maison.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m2')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+        <div id="m3" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m3')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Foutou banane & lafidi</p>
+              <p class="mt-2 text-slate-600" data-en="Plantain fufu and lafidi." data-fr="Foutou banane et lafidi.">Foutou banane et lafidi.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m3')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+        <div id="m4" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m4')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Gambas sautées</p>
+              <p class="mt-2 text-slate-600" data-en="Sautéed prawns from the public chic menu." data-fr="Gambas sautées, menu chic public.">Gambas sautées, menu chic public.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m4')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+        <div id="m5" class="hidden fixed inset-0 z-50 bg-slate-950/70 p-4 flex items-end sm:items-center justify-center" onclick="if(event.target===this)closeModal('m5')">
+          <div class="bg-white rounded-2xl max-w-md w-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80" alt="" class="h-48 w-full object-cover">
+            <div class="p-5">
+              <p class="text-xl font-semibold">Riz gras poisson</p>
+              <p class="mt-2 text-slate-600" data-en="Tomato rice with fish." data-fr="Riz gras au poisson.">Riz gras au poisson.</p>
+              <a href="https://wa.me/224629326262" class="mt-4 inline-flex bg-teal-700 text-white rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a>
+              <button type="button" onclick="closeModal('m5')" class="ml-2 text-sm text-slate-500">Fermer</button>
+            </div>
+          </div>
+        </div>
+
+<script>
+const dict = {};
+function setLang(lang) {
+  document.documentElement.lang = lang === 'fr' ? 'fr' : 'en';
+  document.querySelectorAll('[data-en]').forEach(el => {
+    el.textContent = el.getAttribute(lang === 'fr' ? 'data-fr' : 'data-en');
+  });
+  localStorage.setItem('alfalah-lang', lang);
+}
+document.getElementById('lang').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-lang]');
+  if (!b) return;
+  setLang(b.dataset.lang);
+});
+setLang(localStorage.getItem('alfalah-lang') || 'fr');
+function openModal(id) {
+  document.getElementById(id).classList.remove('hidden');
+}
+function closeModal(id) {
+  document.getElementById(id).classList.add('hidden');
+}
+function sendLead(e) {
+  e.preventDefault();
+  const f = e.target;
+  const name = f.name.value.trim();
+  const msg = f.msg.value.trim();
+  const text = encodeURIComponent('Bonjour, je suis ' + name + '. ' + msg);
+  window.open('https://wa.me/224629326262&text=' + text, '_blank');
+}
+</script>
+
+</body>
+</html>
